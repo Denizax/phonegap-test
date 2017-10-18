@@ -36,7 +36,7 @@ var app = {
         app.receivedEvent('deviceready');
     },
     if(PushbotsPlugin.isiOS){
-        PushbotPlugin.initializeiOS("AIzaSyAecfxwzlhl-qYCY5m217D6eOwuYbpE7CE");
+        PushbotsPlugin.initializeiOS("AIzaSyAecfxwzlhl-qYCY5m217D6eOwuYbpE7CE");
     }
     if(PushbotsPlugin.isAndroid){
     PushbotsPlugin.initializeAndroid("AIzaSyAecfxwzlhl-qYCY5m217D6eOwuYbpE7CE", "620152253799");
